@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B35E102A42F38700B6BA8D /* PetaniKitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */; };
+		C7B35E122A42F38700B6BA8D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E112A42F38700B6BA8D /* ContentView.swift */; };
+		C7B35E142A42F38900B6BA8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B35E132A42F38900B6BA8D /* Assets.xcassets */; };
+		C7B35E172A42F38900B6BA8D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7B35E162A42F38900B6BA8D /* Preview Assets.xcassets */; };
+		C7B35E212A42F38A00B6BA8D /* PetaniKitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E202A42F38A00B6BA8D /* PetaniKitaTests.swift */; };
+		C7B35E2B2A42F38A00B6BA8D /* PetaniKitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */; };
+		C7B35E2D2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B35E1D2A42F38A00B6BA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B35E042A42F38700B6BA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B35E0B2A42F38700B6BA8D;
+			remoteInfo = PetaniKita;
+		};
+		C7B35E272A42F38A00B6BA8D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B35E042A42F38700B6BA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B35E0B2A42F38700B6BA8D;
+			remoteInfo = PetaniKita;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C7B35E0C2A42F38700B6BA8D /* PetaniKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetaniKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaApp.swift; sourceTree = "<group>"; };
+		C7B35E112A42F38700B6BA8D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C7B35E132A42F38900B6BA8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C7B35E162A42F38900B6BA8D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C7B35E1C2A42F38A00B6BA8D /* PetaniKitaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetaniKitaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B35E202A42F38A00B6BA8D /* PetaniKitaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaTests.swift; sourceTree = "<group>"; };
+		C7B35E262A42F38A00B6BA8D /* PetaniKitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetaniKitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITests.swift; sourceTree = "<group>"; };
+		C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B35E092A42F38700B6BA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E192A42F38A00B6BA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E232A42F38A00B6BA8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B35E032A42F38700B6BA8D = {
+			isa = PBXGroup;
+			children = (
+				C7B35E0E2A42F38700B6BA8D /* PetaniKita */,
+				C7B35E1F2A42F38A00B6BA8D /* PetaniKitaTests */,
+				C7B35E292A42F38A00B6BA8D /* PetaniKitaUITests */,
+				C7B35E0D2A42F38700B6BA8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B35E0D2A42F38700B6BA8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B35E0C2A42F38700B6BA8D /* PetaniKita.app */,
+				C7B35E1C2A42F38A00B6BA8D /* PetaniKitaTests.xctest */,
+				C7B35E262A42F38A00B6BA8D /* PetaniKitaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B35E0E2A42F38700B6BA8D /* PetaniKita */ = {
+			isa = PBXGroup;
+			children = (
+				C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */,
+				C7B35E112A42F38700B6BA8D /* ContentView.swift */,
+				C7B35E132A42F38900B6BA8D /* Assets.xcassets */,
+				C7B35E152A42F38900B6BA8D /* Preview Content */,
+			);
+			path = PetaniKita;
+			sourceTree = "<group>";
+		};
+		C7B35E152A42F38900B6BA8D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C7B35E162A42F38900B6BA8D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C7B35E1F2A42F38A00B6BA8D /* PetaniKitaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B35E202A42F38A00B6BA8D /* PetaniKitaTests.swift */,
+			);
+			path = PetaniKitaTests;
+			sourceTree = "<group>";
+		};
+		C7B35E292A42F38A00B6BA8D /* PetaniKitaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */,
+				C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */,
+			);
+			path = PetaniKitaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B35E0B2A42F38700B6BA8D /* PetaniKita */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B35E302A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKita" */;
+			buildPhases = (
+				C7B35E082A42F38700B6BA8D /* Sources */,
+				C7B35E092A42F38700B6BA8D /* Frameworks */,
+				C7B35E0A2A42F38700B6BA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetaniKita;
+			productName = PetaniKita;
+			productReference = C7B35E0C2A42F38700B6BA8D /* PetaniKita.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C7B35E1B2A42F38A00B6BA8D /* PetaniKitaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B35E332A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKitaTests" */;
+			buildPhases = (
+				C7B35E182A42F38A00B6BA8D /* Sources */,
+				C7B35E192A42F38A00B6BA8D /* Frameworks */,
+				C7B35E1A2A42F38A00B6BA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B35E1E2A42F38A00B6BA8D /* PBXTargetDependency */,
+			);
+			name = PetaniKitaTests;
+			productName = PetaniKitaTests;
+			productReference = C7B35E1C2A42F38A00B6BA8D /* PetaniKitaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C7B35E252A42F38A00B6BA8D /* PetaniKitaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B35E362A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKitaUITests" */;
+			buildPhases = (
+				C7B35E222A42F38A00B6BA8D /* Sources */,
+				C7B35E232A42F38A00B6BA8D /* Frameworks */,
+				C7B35E242A42F38A00B6BA8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B35E282A42F38A00B6BA8D /* PBXTargetDependency */,
+			);
+			name = PetaniKitaUITests;
+			productName = PetaniKitaUITests;
+			productReference = C7B35E262A42F38A00B6BA8D /* PetaniKitaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B35E042A42F38700B6BA8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C7B35E0B2A42F38700B6BA8D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					C7B35E1B2A42F38A00B6BA8D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C7B35E0B2A42F38700B6BA8D;
+					};
+					C7B35E252A42F38A00B6BA8D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = C7B35E0B2A42F38700B6BA8D;
+					};
+				};
+			};
+			buildConfigurationList = C7B35E072A42F38700B6BA8D /* Build configuration list for PBXProject "PetaniKita" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C7B35E032A42F38700B6BA8D;
+			productRefGroup = C7B35E0D2A42F38700B6BA8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B35E0B2A42F38700B6BA8D /* PetaniKita */,
+				C7B35E1B2A42F38A00B6BA8D /* PetaniKitaTests */,
+				C7B35E252A42F38A00B6BA8D /* PetaniKitaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B35E0A2A42F38700B6BA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B35E172A42F38900B6BA8D /* Preview Assets.xcassets in Resources */,
+				C7B35E142A42F38900B6BA8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E1A2A42F38A00B6BA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E242A42F38A00B6BA8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B35E082A42F38700B6BA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B35E122A42F38700B6BA8D /* ContentView.swift in Sources */,
+				C7B35E102A42F38700B6BA8D /* PetaniKitaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E182A42F38A00B6BA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B35E212A42F38A00B6BA8D /* PetaniKitaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B35E222A42F38A00B6BA8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B35E2D2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift in Sources */,
+				C7B35E2B2A42F38A00B6BA8D /* PetaniKitaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B35E1E2A42F38A00B6BA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B35E0B2A42F38700B6BA8D /* PetaniKita */;
+			targetProxy = C7B35E1D2A42F38A00B6BA8D /* PBXContainerItemProxy */;
+		};
+		C7B35E282A42F38A00B6BA8D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B35E0B2A42F38700B6BA8D /* PetaniKita */;
+			targetProxy = C7B35E272A42F38A00B6BA8D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C7B35E2E2A42F38A00B6BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C7B35E2F2A42F38A00B6BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B35E312A42F38A00B6BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetaniKita/Preview Content\"";
+				DEVELOPMENT_TEAM = B549WPLTV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PetaniKita;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7B35E322A42F38A00B6BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PetaniKita/Preview Content\"";
+				DEVELOPMENT_TEAM = B549WPLTV6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PetaniKita;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKita;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C7B35E342A42F38A00B6BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetaniKita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetaniKita";
+			};
+			name = Debug;
+		};
+		C7B35E352A42F38A00B6BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKitaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetaniKita.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PetaniKita";
+			};
+			name = Release;
+		};
+		C7B35E372A42F38A00B6BA8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetaniKita;
+			};
+			name = Debug;
+		};
+		C7B35E382A42F38A00B6BA8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.risangbaskoro.PetaniKitaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PetaniKita;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B35E072A42F38700B6BA8D /* Build configuration list for PBXProject "PetaniKita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B35E2E2A42F38A00B6BA8D /* Debug */,
+				C7B35E2F2A42F38A00B6BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B35E302A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKita" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B35E312A42F38A00B6BA8D /* Debug */,
+				C7B35E322A42F38A00B6BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B35E332A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKitaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B35E342A42F38A00B6BA8D /* Debug */,
+				C7B35E352A42F38A00B6BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B35E362A42F38A00B6BA8D /* Build configuration list for PBXNativeTarget "PetaniKitaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B35E372A42F38A00B6BA8D /* Debug */,
+				C7B35E382A42F38A00B6BA8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B35E042A42F38700B6BA8D /* Project object */;
+}
