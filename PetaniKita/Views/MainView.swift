@@ -19,6 +19,11 @@ struct MainView: View {
                 .tabItem {
                     Label("Detect", systemImage: "viewfinder")
                 }
+            
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person")
+                }
         }
     }
 }
