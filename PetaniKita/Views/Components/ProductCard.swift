@@ -12,28 +12,35 @@ struct ProductCard: View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            AsyncImage(url: URL(string: product.images[0])) { image in
-                image
-                    .resizable()
-                    .scaledToFill()
-            } placeholder: {
-                ProgressView()
+            AsyncImage(url: URL(string: product.images[0])) { phase in
+                if let image = phase.image {
+                    image
+                        .resizable()
+                        .scaledToFill()
+                } else if phase.error != nil {
+                    Image(systemName: "photo.fill")
+                        .padding(2)
+                } else {
+                    ProgressView()
+                        .progressViewStyle(.circular)
+                }
             }
             
             HStack(alignment: .center) {
                 Text(product.name)
-                    .font(.system(size: 14))
+                    .lineLimit(1)
+                    .font(.system(size: 12))
                     .bold()
                 
                 Spacer()
                 
-                Text("Rp\(product.price)/kg")
-                    .font(.system(size: 12))
+                Text("Rp\(product.price)")
+                    .font(.system(size: 8))
             }
             .padding()
             .background(.ultraThinMaterial)
         }
-        .frame(width: 200, height: 200)
+        .frame(minWidth: 80, minHeight: 80)
         .clipShape(RoundedRectangle(cornerSize: CGSize(width: 15, height: 15)))
     }
 }

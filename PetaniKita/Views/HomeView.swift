@@ -10,6 +10,8 @@ import SwiftUI
 struct HomeView: View {
     @StateObject var viewModel = HomeViewViewModel()
     
+    let columns = [GridItem(.adaptive(minimum: 140, maximum: 280), spacing: 20)]
+    
     var body: some View {
         NavigationView {
             if viewModel.products.isEmpty {
@@ -20,16 +22,15 @@ struct HomeView: View {
                     }
             }
             else {
-                // TODO: Change to LazyVGrid
-                List {
-                    ForEach(viewModel.products, id: \.self) { product in
-                        ProductCard(product: product)
+                ScrollView {
+                    LazyVGrid(columns: columns) {
+                        ForEach(viewModel.products, id: \.self) { product in
+                            ProductCard(product: product)
+                        }
                     }
                 }
+                .padding()
                 .navigationTitle("PetaniKita")
-                .onAppear{
-                    viewModel.fetch()
-                }
             }
         }
     }
