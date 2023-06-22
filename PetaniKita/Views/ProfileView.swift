@@ -8,30 +8,33 @@
 import SwiftUI
 
 struct ProfileView: View {
+    @StateObject var auth = AuthManager()
+    
     var body: some View {
-        NavigationView {
-            VStack {
+        if auth.isAuthenticated {
+            NavigationView {
                 VStack {
-                    Image(systemName: "person.fill")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 100)
-                        .padding()
-                        .background(.gray)
-                        .clipShape(Circle())
-                    
-                    Text("John")
-                        .font(.title)
-                    Text("Email")
-                    Text("Phone")
-                }
-                
-                Spacer()
-                    .navigationTitle("Profile")
-                    .onAppear {
-                        viewModel.fetch()
+                    VStack {
+                        Image(systemName: "person.fill")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100)
+                            .padding()
+                            .background(.gray)
+                            .clipShape(Circle())
+                        
+                        Text("John Doe")
+                            .font(.title)
+                        Text("johndoe@email.com")
+                        Text("081282828282")
                     }
+                    
+                    Spacer()
+                        .navigationTitle("Profile")
+                }
             }
+        } else {
+            LoginView()
         }
     }
 }
