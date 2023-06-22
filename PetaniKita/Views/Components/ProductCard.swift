@@ -12,17 +12,20 @@ struct ProductCard: View {
     
     var body: some View {
         ZStack(alignment: .bottom) {
-            AsyncImage(url: URL(string: product.images[0])) { phase in
-                if let image = phase.image {
+            CacheAsyncImage(url: URL(string: product.images[0])!) { phase in
+                switch phase {
+                case .empty:
+                    ProgressView()
+                        .progressViewStyle(.circular)
+                case .success(let image):
                     image
                         .resizable()
                         .scaledToFill()
-                } else if phase.error != nil {
+                case .failure(_):
                     Image(systemName: "photo.fill")
                         .padding(2)
-                } else {
-                    ProgressView()
-                        .progressViewStyle(.circular)
+                @unknown default:
+                    fatalError()
                 }
             }
             
