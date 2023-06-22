@@ -11,7 +11,6 @@
 		C753A1922A445C5200F87E25 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753A1912A445C5200F87E25 /* MainView.swift */; };
 		C753A1942A445CBD00F87E25 /* DetectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753A1932A445CBD00F87E25 /* DetectionView.swift */; };
 		C753A1962A445E5D00F87E25 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753A1952A445E5D00F87E25 /* ProfileView.swift */; };
-		C753A1982A445E9300F87E25 /* ProfileViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753A1972A445E9300F87E25 /* ProfileViewViewModel.swift */; };
 		C753A19A2A445ED600F87E25 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C753A1992A445ED600F87E25 /* User.swift */; };
 		C7B35E102A42F38700B6BA8D /* PetaniKitaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */; };
 		C7B35E122A42F38700B6BA8D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E112A42F38700B6BA8D /* HomeView.swift */; };
@@ -47,7 +46,6 @@
 		C753A1912A445C5200F87E25 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		C753A1932A445CBD00F87E25 /* DetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionView.swift; sourceTree = "<group>"; };
 		C753A1952A445E5D00F87E25 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		C753A1972A445E9300F87E25 /* ProfileViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewViewModel.swift; sourceTree = "<group>"; };
 		C753A1992A445ED600F87E25 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		C7B35E0C2A42F38700B6BA8D /* PetaniKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetaniKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaApp.swift; sourceTree = "<group>"; };
@@ -172,7 +170,6 @@
 			isa = PBXGroup;
 			children = (
 				C7D8D61D2A42F87A00001FFF /* HomeViewViewModel.swift */,
-				C753A1972A445E9300F87E25 /* ProfileViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -323,7 +320,6 @@
 				C753A1922A445C5200F87E25 /* MainView.swift in Sources */,
 				C7D8D61E2A42F87A00001FFF /* HomeViewViewModel.swift in Sources */,
 				C7E35DD52A430CE30087C2BB /* ProductCard.swift in Sources */,
-				C753A1982A445E9300F87E25 /* ProfileViewViewModel.swift in Sources */,
 				C7B35E102A42F38700B6BA8D /* PetaniKitaApp.swift in Sources */,
 				C753A18E2A44526B00F87E25 /* CacheAsyncImage.swift in Sources */,
 				C753A19A2A445ED600F87E25 /* User.swift in Sources */,
