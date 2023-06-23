@@ -14,6 +14,6 @@ struct User: Hashable, Codable, Identifiable {
     var phone: String
 }
 
-struct UserBody: Decodable {
+struct UserResponseBody: Decodable {
     var data: User
 }

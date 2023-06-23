@@ -31,6 +31,20 @@ struct ProfileView: View {
                     
                     Spacer()
                         .navigationTitle("Profile")
+                    
+                    Button{
+                        auth.logout()
+                    } label: {
+                        Text("Logout")
+                            .frame(maxWidth: .infinity, maxHeight: 35)
+                            .font(.headline)
+                    }
+                    .buttonStyle(.bordered)
+                    .tint(Color.red)
+                    .padding(.bottom)
+                }
+                .onAppear {
+                    auth.info()
                 }
             }
         } else {

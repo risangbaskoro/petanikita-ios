@@ -12,6 +12,27 @@ class AuthManager: ObservableObject {
     var password: String = ""
     @Published var isAuthenticated: Bool = false
     
+    init() {
+        self.check()
+    }
+    
+    func check() {
+        if UserDefaults.standard.string(forKey: "token") != nil {
+            DispatchQueue.main.async {
+                self.isAuthenticated = true
+            }
+        } else {
+            DispatchQueue.main.async {
+                self.isAuthenticated = false
+            }
+        }
+    }
+    
+    func clear() {
+        self.email = ""
+        self.password = ""
+    }
+    
     func login() {
         let defaults = UserDefaults.standard
         
@@ -19,12 +40,42 @@ class AuthManager: ObservableObject {
             switch result {
             case .success(let token):
                 defaults.setValue(token, forKey: "token")
-                DispatchQueue.main.async {
-                    self.isAuthenticated = true
-                }
+                self.check()
             case .failure(let error):
                 dump(error)
             }
         }
+        
+        self.clear()
+    }
+    
+    func info() {
+        let defaults = UserDefaults.standard
+        
+        let token: String? = defaults.string(forKey: "token")
+        
+        if token != nil {
+            AuthService().info(token: token!) { result in
+                switch result {
+                case .success(let user):
+                    defaults.setValue(user, forKey: "profile")
+                    self.check()
+                case .failure(let error):
+                    dump(error)
+                }
+            }
+        }
+    }
+    
+    func logout() {
+        let defaults = UserDefaults.standard
+        
+        let token: String? = defaults.string(forKey: "token")
+        
+        AuthService().logout(token: token!)
+
+        defaults.removeObject(forKey: "token")
+        defaults.removeObject(forKey: "profile")
+        self.check()
     }
 }
