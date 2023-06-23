@@ -12,19 +12,6 @@ class AuthManager: ObservableObject {
     var password: String = ""
     @Published var isAuthenticated: Bool = false
     
-    init() {
-        self.check()
-    }
-    
-    func check() {
-        let defaults = UserDefaults.standard
-        if defaults.string(forKey: "token") == nil {
-            DispatchQueue.main.async {
-                self.isAuthenticated = true
-            }
-        }
-    }
-    
     func login() {
         let defaults = UserDefaults.standard
         
@@ -35,9 +22,8 @@ class AuthManager: ObservableObject {
                 DispatchQueue.main.async {
                     self.isAuthenticated = true
                 }
-                print(token)
             case .failure(let error):
-                print(error.localizedDescription)
+                dump(error)
             }
         }
     }

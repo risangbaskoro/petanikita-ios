@@ -34,7 +34,7 @@ struct ProfileView: View {
                 }
             }
         } else {
-            LoginView()
+            LoginView(auth: auth)
         }
     }
 }
