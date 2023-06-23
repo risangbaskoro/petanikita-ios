@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @ObservedObject var auth = AuthManager()
-    @State var showRegisterSheet = false
+    @State private var showRegisterSheet = false
     
     var body: some View {
         VStack {
@@ -23,6 +23,7 @@ struct LoginView: View {
                 TextField("Email", text: $auth.email)
                     .padding()
                     .textFieldStyle(DefaultTextFieldStyle())
+
                 SecureField("Password", text: $auth.password)
                     .padding()
                     .textFieldStyle(DefaultTextFieldStyle())
@@ -31,21 +32,22 @@ struct LoginView: View {
                     auth.login()
                 } label: {
                     Text("Login")
-                        .frame(maxWidth: .infinity)
+                        .frame(maxWidth: .infinity, maxHeight: 35)
                         .font(.headline)
                 }
                 .buttonStyle(.borderedProminent)
+                .padding(.vertical)
             }
             .padding()
             
             HStack {
                 Text("Don't have one?")
                 Button("Create an account") {
-                    
+                    showRegisterSheet.toggle()
                 }
                 .padding(.vertical)
                 .sheet(isPresented: $showRegisterSheet) {
-                    DetectionView()
+                    // RegisterView()
                 }
             }
             .font(.footnote)
