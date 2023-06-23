@@ -22,7 +22,6 @@
 		C7B35E212A42F38A00B6BA8D /* PetaniKitaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E202A42F38A00B6BA8D /* PetaniKitaTests.swift */; };
 		C7B35E2B2A42F38A00B6BA8D /* PetaniKitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */; };
 		C7B35E2D2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */; };
-		C7D8D61E2A42F87A00001FFF /* HomeViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8D61D2A42F87A00001FFF /* HomeViewViewModel.swift */; };
 		C7D8D6202A42FA7000001FFF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8D61F2A42FA7000001FFF /* Product.swift */; };
 		C7E35DD52A430CE30087C2BB /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E35DD42A430CE30087C2BB /* ProductCard.swift */; };
 /* End PBXBuildFile section */
@@ -63,7 +62,6 @@
 		C7B35E262A42F38A00B6BA8D /* PetaniKitaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetaniKitaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITests.swift; sourceTree = "<group>"; };
 		C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C7D8D61D2A42F87A00001FFF /* HomeViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewViewModel.swift; sourceTree = "<group>"; };
 		C7D8D61F2A42FA7000001FFF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		C7E35DD42A430CE30087C2BB /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -135,7 +133,6 @@
 				C701E7B32A44FF6000EFF7B2 /* Managers */,
 				C701E7AC2A44F88800EFF7B2 /* Services */,
 				C7D8D61A2A42F85400001FFF /* Models */,
-				C7D8D6192A42F84D00001FFF /* ViewModels */,
 				C7D8D6172A42F83700001FFF /* Views */,
 				C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */,
 				C7B35E132A42F38900B6BA8D /* Assets.xcassets */,
@@ -189,14 +186,6 @@
 				C753A18D2A44526B00F87E25 /* CacheAsyncImage.swift */,
 			);
 			path = Components;
-			sourceTree = "<group>";
-		};
-		C7D8D6192A42F84D00001FFF /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				C7D8D61D2A42F87A00001FFF /* HomeViewViewModel.swift */,
-			);
-			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		C7D8D61A2A42F85400001FFF /* Models */ = {
@@ -344,7 +333,6 @@
 				C7D8D6202A42FA7000001FFF /* Product.swift in Sources */,
 				C753A1922A445C5200F87E25 /* MainView.swift in Sources */,
 				C701E7AE2A44F89700EFF7B2 /* AuthService.swift in Sources */,
-				C7D8D61E2A42F87A00001FFF /* HomeViewViewModel.swift in Sources */,
 				C7E35DD52A430CE30087C2BB /* ProductCard.swift in Sources */,
 				C701E7B02A44FC7000EFF7B2 /* AuthManager.swift in Sources */,
 				C7B35E102A42F38700B6BA8D /* PetaniKitaApp.swift in Sources */,
