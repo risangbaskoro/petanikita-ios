@@ -23,6 +23,7 @@ struct LoginView: View {
                 TextField("Email", text: $auth.email)
                     .padding()
                     .textFieldStyle(DefaultTextFieldStyle())
+                    .keyboardType(.emailAddress)
 
                 SecureField("Password", text: $auth.password)
                     .padding()
