@@ -8,8 +8,6 @@
 import Foundation
 
 class AuthManager: ObservableObject {
-    var email: String = ""
-    var password: String = ""
     @Published var isAuthenticated: Bool = false
     
     init() {
@@ -28,12 +26,7 @@ class AuthManager: ObservableObject {
         }
     }
     
-    func clear() {
-        self.email = ""
-        self.password = ""
-    }
-    
-    func login() {
+    func login(email: String, password: String) {
         let defaults = UserDefaults.standard
         
         AuthService().login(email: email, password: password) { result in
@@ -45,8 +38,6 @@ class AuthManager: ObservableObject {
                 dump(error)
             }
         }
-        
-        self.clear()
     }
     
     func info() {

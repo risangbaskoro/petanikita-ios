@@ -11,6 +11,9 @@ struct LoginView: View {
     @ObservedObject var auth = AuthManager()
     @State private var showRegisterSheet = false
     
+    @State private var email = ""
+    @State private var password = ""
+    
     var body: some View {
         VStack {
             VStack {
@@ -20,17 +23,17 @@ struct LoginView: View {
                     .frame(width: 160)
                     .padding()
                 
-                TextField("Email", text: $auth.email)
+                TextField("Email", text: $email)
                     .padding()
                     .textFieldStyle(DefaultTextFieldStyle())
                     .keyboardType(.emailAddress)
 
-                SecureField("Password", text: $auth.password)
+                SecureField("Password", text: $password)
                     .padding()
                     .textFieldStyle(DefaultTextFieldStyle())
                 
-                Button{
-                    auth.login()
+                Button {
+                    auth.login(email: email, password: password)
                 } label: {
                     Text("Login")
                         .frame(maxWidth: .infinity, maxHeight: 35)

@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProfileView: View {
-    @StateObject var auth = AuthManager()
+    @ObservedObject var auth = AuthManager()
     
     var body: some View {
         if auth.isAuthenticated {
