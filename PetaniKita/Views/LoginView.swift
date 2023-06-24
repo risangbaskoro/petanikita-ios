@@ -47,7 +47,7 @@ struct LoginView: View {
                 }
                 .padding(.vertical)
                 .sheet(isPresented: $showRegisterSheet) {
-                    // RegisterView()
+                    Text("Register") // TODO: Register View
                 }
             }
             .font(.footnote)

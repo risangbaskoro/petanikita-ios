@@ -23,6 +23,7 @@
 		C7B35E2B2A42F38A00B6BA8D /* PetaniKitaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */; };
 		C7B35E2D2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */; };
 		C7D8D6202A42FA7000001FFF /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8D61F2A42FA7000001FFF /* Product.swift */; };
+		C7D8F37A2A471920008B0759 /* ProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7D8F3792A471920008B0759 /* ProductView.swift */; };
 		C7E35DD52A430CE30087C2BB /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7E35DD42A430CE30087C2BB /* ProductCard.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		C753A1932A445CBD00F87E25 /* DetectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionView.swift; sourceTree = "<group>"; };
 		C753A1952A445E5D00F87E25 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		C753A1992A445ED600F87E25 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C79F76032A46541300040C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C7B35E0C2A42F38700B6BA8D /* PetaniKita.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetaniKita.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7B35E0F2A42F38700B6BA8D /* PetaniKitaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaApp.swift; sourceTree = "<group>"; };
 		C7B35E112A42F38700B6BA8D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 		C7B35E2A2A42F38A00B6BA8D /* PetaniKitaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITests.swift; sourceTree = "<group>"; };
 		C7B35E2C2A42F38A00B6BA8D /* PetaniKitaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetaniKitaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C7D8D61F2A42FA7000001FFF /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C7D8F3792A471920008B0759 /* ProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductView.swift; sourceTree = "<group>"; };
 		C7E35DD42A430CE30087C2BB /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -130,6 +133,7 @@
 		C7B35E0E2A42F38700B6BA8D /* PetaniKita */ = {
 			isa = PBXGroup;
 			children = (
+				C79F76032A46541300040C2F /* Info.plist */,
 				C701E7B32A44FF6000EFF7B2 /* Managers */,
 				C701E7AC2A44F88800EFF7B2 /* Services */,
 				C7D8D61A2A42F85400001FFF /* Models */,
@@ -175,6 +179,7 @@
 				C753A1932A445CBD00F87E25 /* DetectionView.swift */,
 				C753A1952A445E5D00F87E25 /* ProfileView.swift */,
 				C701E7B12A44FDCC00EFF7B2 /* LoginView.swift */,
+				C7D8F3792A471920008B0759 /* ProductView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +337,7 @@
 				C7B35E122A42F38700B6BA8D /* HomeView.swift in Sources */,
 				C7D8D6202A42FA7000001FFF /* Product.swift in Sources */,
 				C753A1922A445C5200F87E25 /* MainView.swift in Sources */,
+				C7D8F37A2A471920008B0759 /* ProductView.swift in Sources */,
 				C701E7AE2A44F89700EFF7B2 /* AuthService.swift in Sources */,
 				C7E35DD52A430CE30087C2BB /* ProductCard.swift in Sources */,
 				C701E7B02A44FC7000EFF7B2 /* AuthManager.swift in Sources */,
@@ -507,6 +513,7 @@
 				DEVELOPMENT_TEAM = B549WPLTV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetaniKita/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PetaniKita;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -542,6 +549,7 @@
 				DEVELOPMENT_TEAM = B549WPLTV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PetaniKita/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = PetaniKita;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

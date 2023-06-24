@@ -52,7 +52,12 @@ struct HomeView: View {
                 ScrollView {
                     LazyVGrid(columns: columns) {
                         ForEach(viewModel.products, id: \.self) { product in
-                            ProductCard(product: product)
+                            NavigationLink(destination: {
+                                ProductView(product: product)
+                            }, label: {
+                                ProductCard(product: product)
+                            })
+                            .foregroundStyle(Color.white)
                         }
                     }
                 }

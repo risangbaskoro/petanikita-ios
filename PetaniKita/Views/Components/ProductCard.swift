@@ -15,8 +15,12 @@ struct ProductCard: View {
             CacheAsyncImage(url: URL(string: product.images[0])!) { phase in
                 switch phase {
                 case .empty:
-                    ProgressView()
-                        .progressViewStyle(.circular)
+                    ZStack {
+                        Image(systemName: "photo.fill")
+                            .padding(2)
+                        ProgressView()
+                            .progressViewStyle(.circular)
+                    }
                 case .success(let image):
                     image
                         .resizable()
